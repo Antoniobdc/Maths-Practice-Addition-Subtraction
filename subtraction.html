@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="subtraction.css">
+    <link rel="stylesheet" href="sub.js">
+<title>Maths Resources Practice</title>
+<meta name="description" content="Subtraction">
+
+</head>
+<body>
+  
+<div class="w3-center">
+<div class="w3-card-4 w3-padding-small w3-small">
+<p id="Question5" class="w3-xlarge">932 - 293</p>
+<p id="Answer5" class="w3-xlarge"></p>
+<button onclick="q5()">Show Answer</button>
+<button onclick="document.getElementById('Answer5').innerHTML=''">Hide Answer</button>
+<button onclick="rerun5()">New Question</button>
+<script>
+function r5(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+window.onload = rerun5()
+function rerun5(){
+a5 = r5(500,1000);
+b5 = r5(100,500);
+c5 = a5 - b5;
+document.getElementById('Question5').innerHTML= a5 + " - " + b5;
+document.getElementById('Answer5').innerHTML= '';
+}
+function q5() {
+document.getElementById('Answer5').innerHTML= c5;
+}
+
+</script>
+</div>
+
+<br>
+
+<div class="w3-card-4 w3-padding-small w3-small">
+<p id="Question19" class="w3-xlarge">1506 - 468</p>
+<p id="Answer19" class="w3-xlarge"></p>
+<button onclick="q19()">Show Answer</button>
+<button onclick="document.getElementById('Answer19').innerHTML=''">Hide Answer</button>
+<button onclick="rerun19()">New Question</button>
+<script>
+function r19(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+window.onload = rerun19()
+function rerun19(){
+a19 = r19(1500,2000);
+b19 = r19(100,500);
+c19 = a19 - b19
+document.getElementById('Question19').innerHTML= a19 + " - " + b19;
+document.getElementById('Answer19').innerHTML= '';
+}
+function q19() {
+document.getElementById('Answer19').innerHTML= c19;
+}
+
+</script>
+</div>
+
+<br>
+
+<div class="w3-card-4 w3-padding-small w3-small">
+<p id="Question25" class="w3-xlarge">72.07 - 35.65</p>
+<p id="Answer25" class="w3-xlarge"></p>
+<button onclick="q25()">Show Answer</button>
+<button onclick="document.getElementById('Answer25').innerHTML=''">Hide Answer</button>
+<button onclick="rerun25()">New Question</button>
+<script>
+function r25(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+window.onload = rerun25()
+function rerun25(){
+a25 = r25(5000,10000);
+a25i = a25/100
+b25 = r25(1000,5000);
+b25i = b25 / 100;
+c25 = (a25 - b25)/100;
+document.getElementById('Question25').innerHTML= a25i + " - " + b25i;
+document.getElementById('Answer25').innerHTML= '';
+}
+function q25() {
+document.getElementById('Answer25').innerHTML= c25;
+}
+
+</script>
+</div>
+
+<br>
+
+<div class="w3-card-4 w3-padding-small w3-small">
+<p id="Question8" class="w3-xlarge">985 - 41.07</p>
+<p id="Answer8" class="w3-xlarge"></p>
+<button onclick="q8()">Show Answer</button>
+<button onclick="document.getElementById('Answer8').innerHTML=''">Hide Answer</button>
+<button onclick="rerun8()">New Question</button>
+<script>
+function r8(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+window.onload = rerun8()
+function rerun8(){
+a8 = r8(5000,10000);
+a8i = a8/10
+b8 = r8(1000,5000);
+b8i = b8 / 100;
+c8 = ((10 * a8) - b8)/100;
+document.getElementById('Question8').innerHTML= a8i + " - " + b8i;
+document.getElementById('Answer8').innerHTML= '';
+}
+function q8() {
+document.getElementById('Answer8').innerHTML= c8;
+}
+
+</script>
+</div>
+
+</div>
+
+  <nav>
+			
+			<ul>
+<li><a href="index.html">Multiplication</a><i class="fa fa-home fa-2x"></i></li>
+				
+			
+<li><a href="https://youtu.be/31XN24rZHHI">Video Tutorial</a><i class="fa fa-list fa-2x"></i></li>
+			</ul>
+</nav>
+</body>
+</html>

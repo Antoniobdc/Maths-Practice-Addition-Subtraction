@@ -1,0 +1,125 @@
+.w3-center {
+    text-align: center!important;
+  
+}
+
+body {
+
+color: white;
+background-color: #252525;
+
+}
+
+button {
+
+    
+    box-shadow: 0px 0px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #dedade 5%, #ebebeb 100%);
+	background-color:#dedade;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Verdana;
+	font-size:12px;
+	padding:5px 11px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    
+
+}
+
+w3-card-4 w3-padding-small w3-small {
+
+height: 200px;
+width: 50%;
+  
+  
+}
+
+.w3-xlarge {
+
+
+font-size: 39px;
+  
+}
+
+
+.fa-2x {
+font-size: 2em;
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 40px;
+height: 40px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+background-color: #414141;
+}
+
+body { background: #222; }
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav {	
+	display: inline-block;
+	position: fixed;
+	left: 1em;
+	top: 0.5em;
+	padding: 1.5em;
+	font-family: 'Trebuchet MS';
+	font-size: 1.5em;
+  
+}
+
+nav > a {
+	background: rgb(150, 50, 100);
+	padding: 0.1em 0.4em;
+	font-size: 1.5em;
+	border-radius: 5px;
+}
+
+ul {
+	padding: 0;
+	position: relative;
+  width: 280px;
+  background-color: #CCFFFF;
+  left: -300px;
+      top: 320px;
+}
+
+li {
+	position: relative;
+	left: 0;
+	padding: 0;
+	background: #252525;
+	color: #ffffff;
+  display: table;
+  width: 280px;
+}
+
+li:hover {
+	background: rgb(19, 19, 19);
+	color: #FFF;
+}
+
+/* slide out styles */
+ul, ul li {
+	transition: 0.5s ease 0s;
+}
+
+/* hover state */
+nav:hover > ul {
+	position: relative;
+	left: -60px;
+}
+
+
+
+  
